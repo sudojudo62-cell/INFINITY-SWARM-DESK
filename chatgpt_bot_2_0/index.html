@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ChatGPT Bot 2.0</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app">
+    <header class="top">
+      <div>
+        <h1>ChatGPT Bot <span>2.0</span> <b>— 60 minutes to a company aimed at $100k+/mo</b></h1>
+        <p>Most people skip the check and spend a month building something that already exists. Three times better, direct feed access turns that into twelve minutes: who is complaining about this today, who already sells it, and where the hole is.</p>
+        <div class="chips">
+          <span>the check is 3,600× shorter</span>
+          <span>X search is 53% of the bill</span>
+          <span>buyers are not on the list</span>
+        </div>
+      </div>
+      <button class="run" id="runBtn">RUN PLANNER</button>
+    </header>
+
+    <div class="tabs">
+      <button class="tab active">1</button><button class="tab">2</button><button class="tab">3</button>
+      <button class="tab">4</button><button class="tab">5</button>
+      <span>live output · 1 month of threads → a month of building the wrong thing</span>
+    </div>
+
+    <section class="hero panel">
+      <div class="hero-title">
+        <div><small>THE CHECK · TWELVE MINUTES AGAINST A MONTH</small><h2>The hour is flat — the curve only starts if the offer lands</h2></div>
+        <div class="price">$1.90 / day</div>
+      </div>
+      <div class="hero-grid">
+        <div class="radial-wrap">
+          <div class="radial" id="radial"></div>
+          <div class="radial-center"><strong>ROOT.md</strong><small>you write this part</small><b>$1.90 a day</b></div>
+          <span class="label l1">00–12 the root · you</span>
+          <span class="label l2">40–60 the clock</span>
+          <span class="label l3">24–36 the surface</span>
+          <span class="label l4">48 the hunt</span>
+        </div>
+        <div class="revenue">
+          <div class="revenue-head"><span>IF THE OFFER LANDS · MONTHLY REVENUE</span></div>
+          <div class="metrics">
+            <div><small>RUNNING TOTAL</small><b>$0</b></div>
+            <div><small>MONTHLY</small><b class="green">+$104,200</b></div>
+            <div><small>COST</small><b class="red">$1.90/D</b></div>
+            <div><small>SEARCH COST</small><b>ZERO</b></div>
+          </div>
+          <div class="chart"><div class="y y1">180,000</div><div class="y y2">75,000</div><div class="y y3">25,000</div><div class="y y4">$0</div><svg viewBox="0 0 600 260" preserveAspectRatio="none"><path id="curve" d="M10 248 C150 248 200 247 270 245 S400 240 590 22" fill="none" stroke="currentColor" stroke-width="3"/></svg></div>
+          <div class="chart-foot"><span>MAY 01</span><span>MAY 30</span><span>JUN 29</span><span>JUL 29</span></div>
+          <div class="signal">buyers <span>the machine hunts just as hard either way</span></div>
+        </div>
+      </div>
+      <div class="command">the next act <b>3 lines</b> → a link → a queue → a signal list</div>
+      <footer>the left side casts $1.90 a day and always happens · the right side is the offer, and it is the only part that decides the number</footer>
+    </section>
+
+    <section class="cards">
+      <article class="panel card">
+        <small>01–12 · THE ROOT</small><h3>Three lines written once, read 30 days in a row</h3><div class="mini">the chain: 3 lines → 4 blocks → every morning after</div>
+        <div class="flow"><i>WHO<br><b>12 filters</b></i><em>→</em><i>WHAT<br><b>problem</b></i><em>→</em><i>WHY<br><b>signal</b></i></div>
+        <p>write the body and the machine automates the wrong business, perfectly, thirty times.</p>
+      </article>
+      <article class="panel card">
+        <small>12–24 · THE OFFER</small><h3>One page, one call, and every later block quotes it</h3><div class="mini">the chain: 3 lines → 1 page → 3 blocks reuse it</div>
+        <div class="flow"><i>THE LANDING<br><b>1 page</b></i><em>→</em><i>THE OFFER<br><b>$8,700</b></i><em>→</em><i class="hot">THE OUTBOUND<br><b>signal</b></i></div>
+        <p>the precise model on the stack runs once and is quoted by everything downstream.</p>
+      </article>
+      <article class="panel card">
+        <small>24–36 · THE SURFACE</small><h3>Four files, twelve minutes, four branches at once</h3><div class="mini">the chain: 1 page → 3 parallel writes → 4 artifacts</div>
+        <div class="flow stack"><i>THE PAGE</i><span>↘ <i>Search A</i></span><span>→ <i>Search B</i></span><span>↗ <i>Search C</i></span></div>
+        <p>the parent link is what just launches one API call into four outputs.</p>
+      </article>
+      <article class="panel card">
+        <small class="redtext">36–48 · THE HUNT</small><h3>400 scored, 12 written to, 3 answer — and 1 pays</h3><div class="mini">the chain: 400 → 12 → 3 → 1</div>
+        <div class="bars"><label>signals scored <b>400</b></label><div><span style="width:100%"></span></div><label>letters written <b>12</b></label><div><span style="width:24%"></span></div><label>replied <b>3</b></label><div><span style="width:8%"></span></div><label>paid <b>1</b></label><div><span class="redbar" style="width:3%"></span></div></div>
+        <p>this is the only block that produces a customer; the other four produce files.</p>
+      </article>
+      <article class="panel card">
+        <small>48–60 · THE CLOCK · CLOSES IT</small><h3>Three numbers, in one line into the root, 400 aimed</h3><div class="mini">the chain: 3 numbers + 1 packet → tomorrow’s 400</div>
+        <div class="numbers"><b>400</b><b>12</b><b>1</b><span>→ ROOT.md</span></div>
+        <p>without this line, day 30 hunts exactly the way day 1 did.</p>
+      </article>
+      <article class="panel card">
+        <small>THE HONEST PART · WHAT THE HOUR DOES NOT BUY</small><h3>The machine hunts at the same speed either way</h3><div class="mini">the offer is the variable it cannot set</div>
+        <div class="split"><span>offer lands<br><b>104,200 / mo</b></span><span>offer does not<br><b>0 / mo</b></span></div>
+        <p>same hour, same 2 a day, same 30 mornings — only the first twelve minutes differ.</p>
+      </article>
+    </section>
+    <div class="bottom">you write the root — it builds the rest <b>+</b></div>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
